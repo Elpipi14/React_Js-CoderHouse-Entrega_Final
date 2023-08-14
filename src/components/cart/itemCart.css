@@ -1,0 +1,102 @@
+.carrito_products {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+    font-size: 20px;
+    border: 3px groove rgba(28,110,164,0.7);
+    border-radius: 29px 0px 29px 0px;
+}
+.title_cart{
+    font-size: 30px;
+    font-family: 'Chivo Mono', monospace;
+}
+.sum_stock {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.sum_stock h2{
+    margin-right: 0.5rem;
+}
+
+.aum_rest{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.prod_precie{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+div span {
+    margin: 1rem;
+}
+
+.fin_products {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fin {
+    height: 50px;
+    width: 200px !important;
+}
+
+.terminal {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart__navbar {
+    display: flex;
+    cursor: pointer;
+}
+
+.cart__navbar box-icon {
+    width: 45px;
+    height: 45px;
+}
+
+.cart__navbar span {
+    border: 4px solid rgb(198, 52, 52);
+    border-radius: 50% 20% / 10% 40%;
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+    padding: 0rem;
+    background-color: rgb(245, 24, 24);
+    font-weight: 500px;
+}
+
+.fin_products button {
+    background-color: rgb(241, 241, 240);
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 800;
+    
+    color: black;
+}
+
+
+.fin_products button:hover {
+    color: rgb(90, 222, 86);
+    background: rgb(8, 8, 8);
+}
