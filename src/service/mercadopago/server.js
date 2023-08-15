@@ -13,7 +13,7 @@ app.use(cors());
 
 // aca se inserta la credencial de prueba de mercadopago que es personal  
 mercadopago.configure({
-  access_token: "Inserta Credenciales de Pruba MercadoPago",
+  access_token: "Inserta Credenciales de Prueba MercadoPago",
 });
 
 app.get("/", function (req, res) {
