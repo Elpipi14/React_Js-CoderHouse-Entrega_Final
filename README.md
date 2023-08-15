@@ -13,6 +13,7 @@ Dillinger uses a number of open source projects to work properly:
 
 - [React] - Librería de Javascript
 - [Node.js] - Entorno de ejecución para JavaScript
+- [FireBase] - es una solución que permite guardar nuestros productos en forma sencilla dinamica y costo de bajo recursos.
 - [Express] - Librería de Node utilizada en la construccion de la API
 - [Axios] - utilizada para facilitar una acción en particular en el código JavaScript: hacer llamadas a URL o líneas HTTP
 - [Cors] - Nos ayuda a que no nos de algun error en la seguridad entre navegadores
