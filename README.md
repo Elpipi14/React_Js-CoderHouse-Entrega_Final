@@ -5,7 +5,7 @@
 Este proyecto es un ecommerce orientado al comercio de zapatillas. 
 Por lo que la estética de la pagina es sencilla y minimalista, es dinamica y facil de usar.
 Se puede interactuar con la vista de categorias, individual de cada productos y a su ves la eleccion del producto por talle y cantidad del producto.
-Al finalizar en carrito podes simular una compra con mercado pago usando una api de simulacion.
+Al finalizar en carrito podes simular una compra con mercado pago usando una api de simulacion (en forma local)
 
 ## Tech
 
