@@ -34,6 +34,7 @@ instalar las dependencias
 
 ```sh
 npm i
+npm i axios // capaz que te la pida o no
 ```
 crea o usas tu credenciales de prueba
 de mercadoPago Devolpers (las credenciales son privadas).
