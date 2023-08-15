@@ -57,8 +57,8 @@ Y en la carpeta service entrar mercadopago y en el archivo server agregar la cre
 ```
 
 ```sh
-Tarjeta
-Número
+Usa tarjetas de prueba de métodos de pago locales y simula diferentes transacciones, sin necesidad de usar una tarjeta real.
+
 Mastercard
 5031 7557 3453 0604
 123
