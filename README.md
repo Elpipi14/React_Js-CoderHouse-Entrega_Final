@@ -57,6 +57,13 @@ Y en la carpeta service entrar mercadopago y en el archivo server agregar la cre
 ```
 
 ```sh
+Antes de inicar la app con npm run dev
+Hay que posicionarse en el archivo server.js y en la terminal poner node server.js asi levanta el puerto 8080
+asi se anda el servedir de mercado pago
+y por ultimo desloguearte de la cuenta de mercado pago porque no puedes hacerte pago a vos mismo.
+```
+
+```sh
 Usa tarjetas de prueba de métodos de pago locales y simula diferentes transacciones, sin necesidad de usar una tarjeta real.
 
 Mastercard
