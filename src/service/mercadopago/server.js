@@ -11,9 +11,10 @@ const mercadopago = require("mercadopago");
 app.use(express.json());
 app.use(cors());
 
+// aca se inserta la credencial de prueba de mercadopago que es personal  
 mercadopago.configure({
-    access_token: "TEST-8817054642918990-081212-20fdab3bc54a9d00ca6215243b8267cc-231621152",
-  });
+  access_token: "Inserta Credenciales de Pruba MercadoPago",
+});
 
 app.get("/", function (req, res) {
     res.send("el servidor de mercado pago funciona! 123 :) winner");
