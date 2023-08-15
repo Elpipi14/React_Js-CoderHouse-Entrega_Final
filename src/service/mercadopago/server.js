@@ -11,43 +11,44 @@ const mercadopago = require("mercadopago");
 app.use(express.json());
 app.use(cors());
 
+// aca se inserta la credencial de prueba de mercadopago que es personal  
 mercadopago.configure({
-    access_token: "TEST-8817054642918990-081212-20fdab3bc54a9d00ca6215243b8267cc-231621152",
-  });
+  access_token: "Inserta Credenciales de Pruba MercadoPago",
+});
 
 app.get("/", function (req, res) {
-    res.send("el servidor de mercado pago funciona! 123 :) winner");
-  });
-  
-  app.post("/create_preference", (req, res) => {
-    let preference = {
-      items: [
-        {
-          title: req.body.description,
-          unit_price: Number(req.body.price),
-          quantity: Number(req.body.quantity),
-        },
-      ],
-      back_urls: {
-        success: "http://localhost:5173",
-        failure: "http://localhost:5173",
-        pending: "",
+  res.send("el servidor de mercado pago funciona! 123 :) winner");
+});
+
+app.post("/create_preference", (req, res) => {
+  let preference = {
+    items: [
+      {
+        title: req.body.description,
+        unit_price: Number(req.body.price),
+        quantity: Number(req.body.quantity),
       },
-      auto_return: "approved",
-    };
-  
-    mercadopago.preferences
-      .create(preference)
-      .then(function (response) {
-        res.json({
-          id: response.body.id,
-        });
-      })
-      .catch(function (error) {
-        console.log(error);
+    ],
+    back_urls: {
+      success: "http://localhost:5173",
+      failure: "http://localhost:5173",
+      pending: "",
+    },
+    auto_return: "approved",
+  };
+
+  mercadopago.preferences
+    .create(preference)
+    .then(function (response) {
+      res.json({
+        id: response.body.id,
       });
-  });
-  
-  app.listen(8080, () => {
-    console.log("the server is now running on port 8080");
-  });
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+});
+
+app.listen(8080, () => {
+  console.log("the server is now running on port 8080");
+});
