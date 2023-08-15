@@ -25,13 +25,12 @@ And of course Dillinger itself is open source with a [public repository][dill]
 
 ## Instalacion 
 
-Si desea correr este proyecto, simplemente clone este repositorio y ejecute npm install luego crea o usas tu credenciales de prueba
+Si desea correr este proyecto, simplemente clone este repositorio y ejecute npm install luego usas o creas tu credenciales de prueba
 de mercadoPago Devolpers (las credenciales son privadas).
 Si no tiene cuenta crea una cuenta aqui: https://www.mercadopago.com.ar/developers/es
-Despues creada la cuenta acceda al menu tus integraciones para crear tu crendenciales...
+Despues creada la cuenta acceda al menu tus integraciones para crear tu aplicación para las crendenciales...
 
-
-Install the dependencies and devDependencies and start the server.
+instalar las dependencias
 
 ```sh
 npm i
@@ -53,9 +52,30 @@ En carpeta Payment en payment.jsx hay que insertar tu plubic key...
 Y en la carpeta service entrar mercadopago y en el archivo server agregar la credencial de prueba de mercadopago...
 
     mercadopago.configure({
-      access_token: "Inserta Credenciales de Prueba MercadoPago",
+      access_token: "Inserta token de Prueba MercadoPago",
     });
 ```
+
+```sh
+Tarjeta
+Número
+Mastercard
+5031 7557 3453 0604
+123
+11/25
+
+Visa
+4509 9535 6623 3704
+123
+11/25
+
+American Express
+3711 803032 57522
+1234
+11/25
+
+```
+
 
 
 
