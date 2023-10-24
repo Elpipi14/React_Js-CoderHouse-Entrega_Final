@@ -60,7 +60,7 @@ Y en la carpeta service entrar mercadopago y en el archivo server agregar la cre
 ```sh
 Antes de inicar la app con npm run dev
 Hay que posicionarse en el archivo server.js abrir la terminal desde esa direccion y poner node server.js asi levanta el puerto 8080
-asi se anda el servedir de mercado pago
+para mercado pago
 y por ultimo desloguearte de la cuenta de mercado pago porque no puedes hacerte pago a vos mismo.
 ```
 
